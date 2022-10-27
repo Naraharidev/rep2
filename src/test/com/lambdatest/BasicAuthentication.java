@@ -16,7 +16,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class BasicAuthentication {
-    public static String hubURL = "https://hub.lambdatest.com/wd/hub";
+  /*   public static String hubURL = "https://hub.lambdatest.com/wd/hub";
     private WebDriver driver;
 
     public void setup() throws MalformedURLException {
@@ -80,12 +80,10 @@ public class BasicAuthentication {
         JavascriptExecutor jsExecute = (JavascriptExecutor) driver;
         jsExecute.executeScript("lambda-status=" + status);
         System.out.println(reason);
-    }
+    }*/
 
     public static void main(String[] args) throws MalformedURLException, InterruptedException {
         BasicAuthentication test = new BasicAuthentication();
-        test.setup();
-        test.authentication();
-        test.tearDown();
+       System.out.println("Welcome to github");
     }
 }
